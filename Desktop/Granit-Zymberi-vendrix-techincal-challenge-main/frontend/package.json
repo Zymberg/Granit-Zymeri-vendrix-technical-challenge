@@ -1,0 +1,46 @@
+{
+  "name": "vendrix-technical-challenge-frontend",
+  "version": "1.0.0",
+  "author": "Ryne Schroder",
+  "description": "Vendrix technical challenge for frontend engineers",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.9.3",
+    "@emotion/react": "^11.9.3",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.9.3",
+    "@hookform/error-message": "^2.0.0",
+    "@hookform/resolvers": "^2.9.1",
+    "@mui/icons-material": "^5.8.3",
+    "@mui/lab": "^5.0.0-alpha.85",
+    "@mui/material": "^5.8.3",
+    "@mui/styles": "^5.10.6",
+    "axios": "^0.27.2",
+    "next": "^12.1.7-canary.40",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-hook-form": "^7.32.0",
+    "react-query": "^3.39.1",
+    "redis": "^4.3.1",
+    "typeface-mulish": "^1.1.13",
+    "zod": "^3.17.3"
+  },
+  "devDependencies": {
+    "@hookform/devtools": "^4.1.0",
+    "@types/node": "18.7.18",
+    "@types/react": "^18.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-next": "^12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "typescript": "^4.7.3"
+  }
+}

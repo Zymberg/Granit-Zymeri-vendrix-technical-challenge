@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "aaron-bond.better-comments",
+    "streetsidesoftware.code-spell-checker",
+    "naumovs.color-highlight",
+    "mikestead.dotenv",
+    "pkief.material-icon-theme",
+    "wix.vscode-import-cost"
+  ]
+}
